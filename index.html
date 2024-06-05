@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+<body>
+
+  <form>
+    <div class="container">
+      <h3 class="title">Contact Us </h3>
+
+
+      <div class="success-msg">
+        <div class="suc-img">
+          <img class="img" src="./assets/images/icon-success-check.svg"/>
+          <p >Message sent ! </p>
+        </div>
+        <p class="suc-p">Thanks for completing the form. We'll be in touch soon!</p>
+      </div>
+      <!-- div of last and first name  -->
+      <div class="lf-cont">
+          <div class="f-cont">
+                <label>First Name *</label>
+                <input type="text" class="f-inpt err "/> 
+                <p class="f-err"> This field is required</p>
+          </div>
+          <div class="l-cont">
+            <label>Last Name *</label>
+            <input type="text" class="l-inpt"/> 
+            <p class="l-err"> This field is required</p>
+          </div>
+      </div>
+      <!-- div of email  -->
+      <div class="e-cont">
+          <label>Email *</label>
+          <input type="email" class="e-inpt"/> 
+          <p class="e-err"> Please entre a valid email adress</p>
+      </div>
+
+      <!-- div of query type -->
+      <label class="qry">Query Type *</label>
+      <div class="q-cont">
+        <div class="r-cont">
+          <input type="radio" class="r1"  name="enquiry" value="false"></input>
+          <label class="txt-r1">General Enquiry</label>
+        </div>
+        <div class="r-cont">
+          <input type="radio" class="r2"  name="enquiry" value="false"></input>
+          <label class="txt-r2">Support Request</label>
+        </div>
+        
+      </div>
+      <div class="err-q">
+        <p class="q-err"> Please select a query type</p>
+      </div>
+    
+      
+
+      <!-- div of message  -->
+      <div class="m-cont">
+        <label>Message *</label>
+        <input type="text" class="m-inpt"></input> 
+        <p class="m-err"> This field is required</p>
+      </div>
+
+      <!-- div of checkbox  -->
+      <div class="c-cont">
+        
+        <input type="checkbox" value="false"  class="checkbox"></input>
+        <label class="c-txt">I consent to being contacted by the team *</label>
+        
+      </div>
+      <div class="err-ch">
+        <p class="ch-err"> To submit this form, please consent to being contacted</p>
+      </div>
+      
+
+      <div class="btn-cont">
+        <button type="button" class="btn">Submit</button>
+      </div>
+    </div>
+
+
+  </form>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
