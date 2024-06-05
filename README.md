@@ -68,7 +68,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- <a href="https://github.com/">Github</a> -
+- <a href="https://github.com/Ynsaid">Github</a> -
 - <a href="https://www.frontendmentor.io/profile/Ynsaid">Frontend Mentor</a>  - 
 
 
