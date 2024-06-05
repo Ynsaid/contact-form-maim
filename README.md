@@ -48,7 +48,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: <a href="https://github.com/Ynsaid/contact-form-maim/">Solution</a>
-- Live Site URL: <a href="https://github.com/Ynsaid/contact-form-maim/">Link</a>
+- Live Site URL: <a href="https://github.com/Ynsaid/contact-form-maim/](https://ynsaid.github.io/contact-form-maim/">Link</a>
 
 ## My process
 
